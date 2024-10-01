@@ -1,0 +1,14 @@
+.button {
+    padding: 10px;
+    background-color: $color-bg-primary;
+    color: $color-font-primary;
+    font-weight: bold;
+    box-shadow: $box-shadow-primary;
+    border-radius: $border-radius;
+    border: unset;
+    cursor: pointer;
+
+    &--disabled {
+        background-color: $color-placeholder;
+    }
+}

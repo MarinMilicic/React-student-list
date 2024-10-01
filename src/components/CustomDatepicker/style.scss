@@ -1,0 +1,16 @@
+@import "styles/variables.scss";
+
+.custom-datepicker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: $color-bg-tertiary;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: $box-shadow-primary;
+
+    input {
+        border: none;
+        outline: none;
+    }
+}

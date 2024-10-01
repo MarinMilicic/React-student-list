@@ -1,0 +1,25 @@
+{
+  "students": [
+    {
+      "name": "Ante",
+      "surname": "Antić",
+      "percentage": "80",
+      "birthDate": 760057200000,
+      "id": 0
+    },
+    {
+      "name": "Mate",
+      "surname": "Matić",
+      "percentage": "50",
+      "birthDate": 791852400000,
+      "id": 1
+    },
+    {
+      "name": "Antea",
+      "surname": "Antić",
+      "percentage": "100",
+      "birthDate": 824252400000,
+      "id": 2
+    }
+  ]
+}

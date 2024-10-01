@@ -1,0 +1,36 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+body {
+    background-color: $color-bg-secondary;
+    color: $color-font-secondary;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: $font-size-xl;
+}
+
+h2 {
+    font-size: $font-size-lg;
+}
+
+h3 {
+    font-size: $font-size-md;
+}
+
+h4 {
+    font-size: $font-size-sm;
+}

@@ -1,0 +1,77 @@
+@for $i from 1 through 20 {
+    .m-#{$i * 5} {
+        margin: $i * 5px;
+    }
+
+    .m-r-#{$i * 5} {
+        margin-right: $i * 5px;
+    }
+
+    .m-l-#{$i * 5} {
+        margin-left: $i * 5px;
+    }
+
+    .m-t-#{$i * 5} {
+        margin-top: $i * 5px;
+    }
+
+    .m-b-#{$i * 5} {
+        margin-bottom: $i * 5px;
+    }
+
+    .p-#{$i * 5} {
+        padding: $i * 5px;
+    }
+
+    .p-r-#{$i * 5} {
+        padding-right: $i * 5px;
+    }
+
+    .p-l-#{$i * 5} {
+        padding-left: $i * 5px;
+    }
+
+    .p-t-#{$i * 5} {
+        padding-top: $i * 5px;
+    }
+
+    .p-b-#{$i * 5} {
+        padding-bottom: $i * 5px;
+    }
+
+    .gap-#{$i * 5} {
+        gap: $i * 5px;
+    }
+
+    .w-#{$i * 20}px {
+        width: $i * 20px;
+    }
+
+    .h-#{$i * 20}px {
+        height: $i * 20px;
+    }
+
+    .w-#{$i * 5} {
+        width: $i * 5%;
+    }
+
+    .h-#{$i * 5} {
+        height: $i * 5%;
+    }
+}
+
+.m-l-auto {
+    margin-left: auto;
+}
+
+.m-r-auto {
+    margin-right: auto;
+}
+
+.m-t-auto {
+    margin-top: auto;
+}
+
+.m-b-auto {
+    margin-bottom: auto;
+}

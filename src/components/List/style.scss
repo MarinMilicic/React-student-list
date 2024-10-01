@@ -1,0 +1,10 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    height: 70vh;
+    padding: 10px;
+    gap: 10px;
+    font-size: 18px;
+    overflow: auto;
+}

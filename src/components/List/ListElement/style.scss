@@ -1,0 +1,16 @@
+@import "styles/variables.scss";
+
+.list-element {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: $color-bg-tertiary;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow-primary;
+    transform: 0.2s all;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+} 

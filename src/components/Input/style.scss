@@ -1,0 +1,31 @@
+@import "styles/variables.scss";
+
+.input-field {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: $border-radius;
+    background-color: $color-bg-tertiary;
+    box-shadow: $box-shadow-primary;
+    min-width: 300px;
+    transition: .2s transform;
+
+    &__icon {
+        margin-right: 10px;
+    }
+
+    &__input {
+        background-color: unset;
+        border: unset;
+        outline: none;
+        font-size: 20px;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &.focused {
+        transform: scale(1.05);
+    }
+}

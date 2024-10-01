@@ -1,0 +1,21 @@
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+@each $name, $value in $positions {
+    .flex-justify-#{$name} {
+        justify-content: $value;
+    }
+
+    .flex-align-#{$name} {
+        align-items: $value;
+    }
+}
+
+.grow {
+    flex-grow: 1;
+}
